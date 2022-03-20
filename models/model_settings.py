@@ -59,6 +59,20 @@ MODEL_POOL = {
         'channel_order': 'RGB',
         'fused_scale': 'auto',
     },
+    'stylegan3_ffhq': {
+        'model_path': MODEL_DIR + '/stylegan3-t-ffhq-1024x1024.pkl',
+        'gan_type': 'stylegan3',
+        'dataset_name': 'ffhq',
+        'latent_space_dim': 512,
+        'w_space_dim': 512,
+        'c_space_dim': 512,
+        'resolution': 1024,
+        'min_val': -1.0,
+        'max_val': 1.0,
+        'output_channels': 3,
+        'channel_order': 'RGB',
+        'fused_scale': 'auto',
+    }, 
 }
 
 # Settings for StyleGAN.
